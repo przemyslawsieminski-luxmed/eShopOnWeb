@@ -15,6 +15,11 @@ public static class ImageValidators
     private static void unused_method()
     {
         var tmp = "i don't do anything yet!";
+        var k = 4;
+        
+        for (int i = 0; i < 5; ++i) {
+            --k;
+        }
     }
         
     private static bool IsExtensionValid(string fileName)
