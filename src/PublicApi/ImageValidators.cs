@@ -12,6 +12,11 @@ public static class ImageValidators
         return postedFile != null && postedFile.Length > 0 && postedFile.Length <= ImageMaximumBytes && IsExtensionValid(fileName);
     }
 
+    private static void unused_method()
+    {
+        var tmp = "i don't do anything yet!";
+    }
+        
     private static bool IsExtensionValid(string fileName)
     {
         var extension = Path.GetExtension(fileName);
