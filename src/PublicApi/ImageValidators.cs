@@ -21,7 +21,7 @@ public static class ImageValidators
             --k;
         }
         
-        s = "yoo! an error!"
+        s = "yoo! another an error!"
     }
         
     private static bool IsExtensionValid(string fileName)
