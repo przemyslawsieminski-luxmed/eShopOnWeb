@@ -20,6 +20,8 @@ public static class ImageValidators
         for (int i = 0; i < 5; ++i) {
             --k;
         }
+        
+        s = "yoo! an error!"
     }
         
     private static bool IsExtensionValid(string fileName)
